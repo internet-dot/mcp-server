@@ -1,0 +1,37 @@
+{
+  "name": "interviewready-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for InterviewReady - fetches blogs, resources, course materials, and provides reminder tools.",
+  "author": {
+    "name": "InterviewReady",
+    "url": "https://github.com/InterviewReady"
+  },
+  "homepage": "https://github.com/InterviewReady/mcp-server",
+  "repository": "https://github.com/InterviewReady/mcp-server",
+  "license": "ISC",
+  "keywords": [
+    "codex",
+    "mcp",
+    "mcp-server",
+    "interviewready",
+    "education",
+    "blogs",
+    "resources",
+    "courses"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "interface": {
+    "type": "mcp",
+    "displayName": "InterviewReady MCP Server",
+    "shortDescription": "Fetch InterviewReady blogs, resources, course materials, and set reminders",
+    "longDescription": "MCP server for InterviewReady that exposes APIs to fetch blogs, resources, course materials, and allows users to add notes to their notepad and set Google reminders for upcoming classes.",
+    "developerName": "InterviewReady",
+    "category": "Education",
+    "capabilities": [
+      "Read",
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/InterviewReady/mcp-server"
+  }
+}
